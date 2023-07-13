@@ -1,5 +1,6 @@
 public class PrintFigure {
-    public void printFigureName(Shape shape) {
+    public void printFigure(Shape shape) {
         shape.printFigureName();
+        shape.draw();
     }
 }

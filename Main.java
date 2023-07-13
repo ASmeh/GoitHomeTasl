@@ -6,10 +6,11 @@ public class Main {
         Shape quad = new Quad();
         Shape square = new Square();
         Shape rhombus = new Rhombus();
-        pf.printFigureName(circle);
-        pf.printFigureName(triangle);
-        pf.printFigureName(quad);
-        pf.printFigureName(square);
-        pf.printFigureName(rhombus);
+        pf.printFigure(circle);
+        pf.printFigure(triangle);
+        pf.printFigure(quad);
+        pf.printFigure(square);
+        pf.printFigure(rhombus);
+
     }
 }
